@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504ED3D72A80BF0900F36AE2 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3D62A80BF0900F36AE2 /* beep.mp3 */; };
+		504ED3D92A80CB3A00F36AE2 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3D82A80CB3A00F36AE2 /* right.mp3 */; };
+		504ED3DD2A80CB4500F36AE2 /* left.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3DA2A80CB4500F36AE2 /* left.mp3 */; };
+		504ED3DE2A80CB4500F36AE2 /* up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3DB2A80CB4500F36AE2 /* up.mp3 */; };
+		504ED3DF2A80CB4500F36AE2 /* dowm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3DC2A80CB4500F36AE2 /* dowm.mp3 */; };
+		504ED3E12A80D58500F36AE2 /* beep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 504ED3E02A80D58500F36AE2 /* beep2.mp3 */; };
+		504ED3E32A80E0CE00F36AE2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504ED3E22A80E0CE00F36AE2 /* Location.swift */; };
+		506D02A22A7FFF0800A42248 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506D02A12A7FFF0800A42248 /* TouchView.swift */; };
+		506D02A82A8009F800A42248 /* beep-08b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 506D02A72A8009F800A42248 /* beep-08b.mp3 */; };
+		506D02AA2A800A2100A42248 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506D02A92A800A2100A42248 /* AudioPlayer.swift */; };
+		50A4B7502A7F81E8007BF7D1 /* tactile_mapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4B74F2A7F81E8007BF7D1 /* tactile_mapApp.swift */; };
+		50A4B7522A7F81E8007BF7D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4B7512A7F81E8007BF7D1 /* ContentView.swift */; };
+		50A4B7542A7F81EA007BF7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A4B7532A7F81EA007BF7D1 /* Assets.xcassets */; };
+		50A4B7572A7F81EA007BF7D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A4B7562A7F81EA007BF7D1 /* Preview Assets.xcassets */; };
+		50A4B75E2A7F8F6E007BF7D1 /* triangle button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4B75D2A7F8F6E007BF7D1 /* triangle button.swift */; };
+		50A4B7602A7F96CF007BF7D1 /* Gridmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4B75F2A7F96CF007BF7D1 /* Gridmap.swift */; };
+		50A4B7622A7F9F2B007BF7D1 /* Previewdevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A4B7612A7F9F2B007BF7D1 /* Previewdevice.swift */; };
+		50E9FFDD2A813647003557C2 /* start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 50E9FFDC2A813647003557C2 /* start.mp3 */; };
+		50E9FFDF2A814AFA003557C2 /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9FFDE2A814AFA003557C2 /* Homescreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504ED3D62A80BF0900F36AE2 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		504ED3D82A80CB3A00F36AE2 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
+		504ED3DA2A80CB4500F36AE2 /* left.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = left.mp3; sourceTree = "<group>"; };
+		504ED3DB2A80CB4500F36AE2 /* up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = up.mp3; sourceTree = "<group>"; };
+		504ED3DC2A80CB4500F36AE2 /* dowm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dowm.mp3; sourceTree = "<group>"; };
+		504ED3E02A80D58500F36AE2 /* beep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep2.mp3; sourceTree = "<group>"; };
+		504ED3E22A80E0CE00F36AE2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		506D02A12A7FFF0800A42248 /* TouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchView.swift; sourceTree = "<group>"; };
+		506D02A72A8009F800A42248 /* beep-08b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-08b.mp3"; sourceTree = "<group>"; };
+		506D02A92A800A2100A42248 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		50A4B74C2A7F81E8007BF7D1 /* tactile map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tactile map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A4B74F2A7F81E8007BF7D1 /* tactile_mapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tactile_mapApp.swift; sourceTree = "<group>"; };
+		50A4B7512A7F81E8007BF7D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A4B7532A7F81EA007BF7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A4B7562A7F81EA007BF7D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50A4B75D2A7F8F6E007BF7D1 /* triangle button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "triangle button.swift"; sourceTree = "<group>"; };
+		50A4B75F2A7F96CF007BF7D1 /* Gridmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gridmap.swift; sourceTree = "<group>"; };
+		50A4B7612A7F9F2B007BF7D1 /* Previewdevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Previewdevice.swift; sourceTree = "<group>"; };
+		50E9FFDC2A813647003557C2 /* start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = start.mp3; sourceTree = "<group>"; };
+		50E9FFDE2A814AFA003557C2 /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A4B7492A7F81E8007BF7D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A4B7432A7F81E8007BF7D1 = {
+			isa = PBXGroup;
+			children = (
+				50A4B74E2A7F81E8007BF7D1 /* tactile map */,
+				50A4B74D2A7F81E8007BF7D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A4B74D2A7F81E8007BF7D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A4B74C2A7F81E8007BF7D1 /* tactile map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A4B74E2A7F81E8007BF7D1 /* tactile map */ = {
+			isa = PBXGroup;
+			children = (
+				50A4B74F2A7F81E8007BF7D1 /* tactile_mapApp.swift */,
+				50A4B7512A7F81E8007BF7D1 /* ContentView.swift */,
+				50A4B75D2A7F8F6E007BF7D1 /* triangle button.swift */,
+				50A4B7532A7F81EA007BF7D1 /* Assets.xcassets */,
+				504ED3D62A80BF0900F36AE2 /* beep.mp3 */,
+				506D02A72A8009F800A42248 /* beep-08b.mp3 */,
+				504ED3D82A80CB3A00F36AE2 /* right.mp3 */,
+				504ED3DC2A80CB4500F36AE2 /* dowm.mp3 */,
+				504ED3DA2A80CB4500F36AE2 /* left.mp3 */,
+				504ED3DB2A80CB4500F36AE2 /* up.mp3 */,
+				504ED3E02A80D58500F36AE2 /* beep2.mp3 */,
+				50E9FFDC2A813647003557C2 /* start.mp3 */,
+				50A4B7552A7F81EA007BF7D1 /* Preview Content */,
+				50A4B75F2A7F96CF007BF7D1 /* Gridmap.swift */,
+				50A4B7612A7F9F2B007BF7D1 /* Previewdevice.swift */,
+				506D02A12A7FFF0800A42248 /* TouchView.swift */,
+				506D02A92A800A2100A42248 /* AudioPlayer.swift */,
+				504ED3E22A80E0CE00F36AE2 /* Location.swift */,
+				50E9FFDE2A814AFA003557C2 /* Homescreen.swift */,
+			);
+			path = "tactile map";
+			sourceTree = "<group>";
+		};
+		50A4B7552A7F81EA007BF7D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50A4B7562A7F81EA007BF7D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A4B74B2A7F81E8007BF7D1 /* tactile map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A4B75A2A7F81EA007BF7D1 /* Build configuration list for PBXNativeTarget "tactile map" */;
+			buildPhases = (
+				50A4B7482A7F81E8007BF7D1 /* Sources */,
+				50A4B7492A7F81E8007BF7D1 /* Frameworks */,
+				50A4B74A2A7F81E8007BF7D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tactile map";
+			productName = "tactile map";
+			productReference = 50A4B74C2A7F81E8007BF7D1 /* tactile map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A4B7442A7F81E8007BF7D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					50A4B74B2A7F81E8007BF7D1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50A4B7472A7F81E8007BF7D1 /* Build configuration list for PBXProject "tactile map" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A4B7432A7F81E8007BF7D1;
+			productRefGroup = 50A4B74D2A7F81E8007BF7D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A4B74B2A7F81E8007BF7D1 /* tactile map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A4B74A2A7F81E8007BF7D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504ED3E12A80D58500F36AE2 /* beep2.mp3 in Resources */,
+				504ED3D92A80CB3A00F36AE2 /* right.mp3 in Resources */,
+				50A4B7572A7F81EA007BF7D1 /* Preview Assets.xcassets in Resources */,
+				50A4B7542A7F81EA007BF7D1 /* Assets.xcassets in Resources */,
+				504ED3D72A80BF0900F36AE2 /* beep.mp3 in Resources */,
+				504ED3DE2A80CB4500F36AE2 /* up.mp3 in Resources */,
+				504ED3DF2A80CB4500F36AE2 /* dowm.mp3 in Resources */,
+				50E9FFDD2A813647003557C2 /* start.mp3 in Resources */,
+				506D02A82A8009F800A42248 /* beep-08b.mp3 in Resources */,
+				504ED3DD2A80CB4500F36AE2 /* left.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A4B7482A7F81E8007BF7D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A4B7602A7F96CF007BF7D1 /* Gridmap.swift in Sources */,
+				50A4B7622A7F9F2B007BF7D1 /* Previewdevice.swift in Sources */,
+				504ED3E32A80E0CE00F36AE2 /* Location.swift in Sources */,
+				50A4B7522A7F81E8007BF7D1 /* ContentView.swift in Sources */,
+				50A4B75E2A7F8F6E007BF7D1 /* triangle button.swift in Sources */,
+				506D02A22A7FFF0800A42248 /* TouchView.swift in Sources */,
+				50A4B7502A7F81E8007BF7D1 /* tactile_mapApp.swift in Sources */,
+				50E9FFDF2A814AFA003557C2 /* Homescreen.swift in Sources */,
+				506D02AA2A800A2100A42248 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50A4B7582A7F81EA007BF7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A4B7592A7F81EA007BF7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A4B75B2A7F81EA007BF7D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tactile map/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KGZQL9L42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincentcloutier.eyesight123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A4B75C2A7F81EA007BF7D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tactile map/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KGZQL9L42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincentcloutier.eyesight123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A4B7472A7F81E8007BF7D1 /* Build configuration list for PBXProject "tactile map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A4B7582A7F81EA007BF7D1 /* Debug */,
+				50A4B7592A7F81EA007BF7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A4B75A2A7F81EA007BF7D1 /* Build configuration list for PBXNativeTarget "tactile map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A4B75B2A7F81EA007BF7D1 /* Debug */,
+				50A4B75C2A7F81EA007BF7D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A4B7442A7F81E8007BF7D1 /* Project object */;
+}
